@@ -33,15 +33,17 @@ This automated ETL pipeline is designed for the Databricks platform. It *extract
 
 ## ✍️ Conclusion and Recommendations
 
+### Conclusion
+Our automated ETL pipeline has identified key areas where flight delays are prevalent, especially for shorter routes. There, I have identified the top 20 flight routes under 500 miles experiencing the highest average delays. To enhance operational efficiency and customer satisfaction, it is crucial to implement strategic measures aimed at minimizing these delays.
+
+<img width="1152" alt="Screenshot 2023-11-30 at 2 19 33 PM" src="https://github.com/aghakishiyeva/ids706-individual-project-3/assets/78721466/58ef98de-eb2f-49bf-9050-a6e176a70fbc">
+
 ### Recommendations
 - Enhance route planning and scheduling using insights from the transformed data.
 - Integrate real-time data sources to improve the responsiveness of delay management strategies.
 - Continuously monitor the pipeline's performance and adjust as needed for efficiency.
 
-### Conclusion
-Our automated ETL pipeline has identified key areas where flight delays are prevalent, especially for shorter routes. There, I have identified the top 20 flight routes under 500 miles experiencing the highest average delays. To enhance operational efficiency and customer satisfaction, it is crucial to implement strategic measures aimed at minimizing these delays.
 
-<img width="1152" alt="Screenshot 2023-11-30 at 2 19 33 PM" src="https://github.com/aghakishiyeva/ids706-individual-project-3/assets/78721466/58ef98de-eb2f-49bf-9050-a6e176a70fbc">
 
 
 
