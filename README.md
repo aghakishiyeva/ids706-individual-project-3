@@ -26,7 +26,7 @@ This automated ETL pipeline is designed for the Databricks platform. It *extract
 4. Configure the job's schedule according to your data processing needs (e.g., daily, weekly, upon event trigger).
 5. Set up alerts to notify you of the job's success or failure.
  
-<img width="704" alt="Screenshot 2023-11-30 at 2 22 59 PM" src="https://github.com/aghakishiyeva/ids706-individual-project-3/assets/78721466/8c80a19b-93c9-4be8-95eb-053864060b3f">
+<img width="1298" alt="Screenshot 2023-11-30 at 2 22 59 PM" src="https://github.com/aghakishiyeva/ids706-individual-project-3/assets/78721466/8c80a19b-93c9-4be8-95eb-053864060b3f">
 
 <img width="1298" alt="Screenshot 2023-11-30 at 2 22 30 PM" src="https://github.com/aghakishiyeva/ids706-individual-project-3/assets/78721466/60a8d6f3-f90e-4a36-a1eb-f79d76f3e020">
 
