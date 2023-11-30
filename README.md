@@ -1,9 +1,8 @@
-# Automated ETL Pipeline for Flight Data Analysis on Databricks
+# ✈️ Automated ETL Pipeline for Flight Data Analysis on Databricks
 
-## Overview
-This automated ETL pipeline is designed for the Databricks platform. It extracts flight data, performs transformation to identify patterns such as average delays by flight origin, and loads the results into Delta Lake. The pipeline is configured to run automatically, ensuring up-to-date data is available for analysis with minimal manual intervention.
+This automated ETL pipeline is designed for the Databricks platform. It *extracts* flight data, performs *transformation* to identify patterns such as average delays by flight origin, and *loads* the results into Delta Lake. The pipeline is configured to run automatically, ensuring up-to-date data is available for analysis with minimal manual intervention. This pipeline also illustrates the robust features of Delta Lake for efficient data extraction (Extract.ipynb), conducts thorough data quality checks to maintain high data integrity, and utilizes advanced visualization techniques in the transformation phase to effectively present analytical insights (Transform.ipynb).
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 - Access to a Databricks workspace
@@ -27,20 +26,22 @@ This automated ETL pipeline is designed for the Databricks platform. It extracts
 4. Configure the job's schedule according to your data processing needs (e.g., daily, weekly, upon event trigger).
 5. Set up alerts to notify you of the job's success or failure.
 
-## Monitoring and Maintenance
+## 🛠️ Monitoring and Maintenance
 - Regularly check the job runs and logs for any errors or warnings.
 - Update the notebooks if there are changes in the data source or transformation logic.
 - Keep the Databricks runtime and Delta Lake version up-to-date to utilize the latest features and improvements.
 
-## Conclusion and Recommendations
-
-### Conclusions
-Our automated ETL pipeline has identified key areas where flight delays are prevalent, especially for shorter routes.
+## ✍️ Conclusion and Recommendations
 
 ### Recommendations
 - Enhance route planning and scheduling using insights from the transformed data.
 - Integrate real-time data sources to improve the responsiveness of delay management strategies.
 - Continuously monitor the pipeline's performance and adjust as needed for efficiency.
 
-## Authors
-- **Gunel Aghakishiyeva**
+### Conclusion
+Our automated ETL pipeline has identified key areas where flight delays are prevalent, especially for shorter routes. There, I have identified the top 20 flight routes under 500 miles experiencing the highest average delays. To enhance operational efficiency and customer satisfaction, it is crucial to implement strategic measures aimed at minimizing these delays.
+
+<img width="1152" alt="Screenshot 2023-11-30 at 2 19 33 PM" src="https://github.com/aghakishiyeva/ids706-individual-project-3/assets/78721466/58ef98de-eb2f-49bf-9050-a6e176a70fbc">
+
+
+
